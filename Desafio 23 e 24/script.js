@@ -1,6 +1,6 @@
-function getRandomName() {
+function nomesAleatorios() {
     
-    var names = [
+    var nomes = [
         //Nome de alguns dos meus familiares//
 
         "Gustavo",
@@ -15,9 +15,9 @@ function getRandomName() {
         "Thiago"
     ];
 
-    var randomIndex = Math.floor(Math.random() * names.length);
+    var nomesAle = Math.floor(Math.random() * nomes.length);
 
-    return names[randomIndex];
+    return nomes[nomesAle];
 }
 
-console.log(getRandomName());
+console.log(nomesAleatorios());
